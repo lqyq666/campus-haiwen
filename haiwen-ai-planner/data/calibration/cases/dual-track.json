@@ -1,0 +1,26 @@
+{
+  "caseId": "dual-track",
+  "title": "双轨准备",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "SOPHOMORE",
+    "rank": 15,
+    "cohortSize": 100,
+    "cet6Score": 470,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "targetUniversities": [],
+    "researchExperiences": [],
+    "competitionExperiences": [
+      { "name": "竞赛", "award": "奖项", "level": "PROVINCIAL" }
+    ]
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "DUAL_TRACK",
+    "recommendationScoreRange": { "min": 20, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["english", "research"],
+    "expectedActionPriorities": ["IMPROVE_ENGLISH", "BUILD_RESEARCH"]
+  }
+}

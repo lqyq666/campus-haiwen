@@ -1,0 +1,24 @@
+{
+  "caseId": "weak-recommendation",
+  "title": "弱保研基础",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "JUNIOR",
+    "rank": 45,
+    "cohortSize": 100,
+    "cet4Score": 450,
+    "dailyStudyHours": 3,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "researchExperiences": [],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "POSTGRAD_EXAM",
+    "recommendationScoreRange": { "min": 0, "max": 60 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["ranking", "research"],
+    "expectedActionPriorities": ["START_EXAM_PREP"]
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>成都理工大学保研 / 考研智能测评</title>
+  <link rel="stylesheet" href="static/css/main.css?v=20260831-ui6">
+  <link rel="stylesheet" href="static/css/pages/qna.css?v=20260904-ui29">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Campus Advisor 首页">
+      <span class="brand-mark" aria-hidden="true">CA</span>
+      <span class="brand-name">Campus <strong>Advisor</strong></span>
+    </a>
+    <div class="header-context">
+      <span>成都理工大学</span>
+      <span class="system-status"><i aria-hidden="true"></i>升学测评</span>
+    </div>
+  </header>
+  <main class="chat-area">
+    <section class="welcome" id="welcome">
+      <div class="welcome-copy">
+        <p class="welcome-context">成都理工大学 · 升学决策测评</p>
+        <h1>看清你的升学位置，<br><span>再决定下一步。</span></h1>
+        <p class="welcome-intro">基于你的专业排名、英语、科研、竞赛和目标方向，回答当前最关心的问题，并生成一份简洁的总体报告。</p>
+        <div class="welcome-actions">
+          <button id="startBtn" type="button">开始测评 <span aria-hidden="true">→</span></button>
+          <button id="historyBtn" type="button">查看历史记录</button>
+        </div>
+        <p class="welcome-disclaimer">规划评估不代表录取概率或录取承诺。</p>
+      </div>
+      <aside class="welcome-brief" aria-label="测评说明">
+        <div class="brief-head">
+          <span>你的专属升学诊断</span>
+          <strong>约 4–6 分钟</strong>
+        </div>
+        <div class="brief-route" aria-hidden="true">
+          <span>画像</span><i></i><span>诊断</span><i></i><span>判断</span><i></i><span>报告</span>
+        </div>
+        <ul>
+          <li><span>01</span><p><strong>结构化诊断</strong>梳理排名、英语、科研与竞赛基础</p></li>
+          <li><span>02</span><p><strong>路径判断</strong>说明保研、考研或双轨准备的关键依据</p></li>
+          <li><span>03</span><p><strong>总体报告</strong>汇总总体判断、当前优势和核心问题</p></li>
+        </ul>
+        <p class="privacy-note">匿名开始；只有你主动同意后，规划老师才能联系你。</p>
+      </aside>
+    </section>
+    <section class="chat-messages" id="chatMessages" aria-live="polite"></section>
+    <section class="quick-actions" id="quickActions" aria-label="快捷回答"></section>
+    <section class="report" id="report" hidden aria-live="polite"></section>
+    <form class="chat-input-area" id="intakeForm">
+      <div class="chat-input-wrap">
+        <input id="chatInput" autocomplete="off" maxlength="2000" placeholder="点击“开始测评”后按提示回答" required>
+        <button id="sendBtn" type="submit">发送</button>
+      </div>
+    </form>
+  </main>
+  <script src="static/js/pages/qna.js?v=20260904-ui28"></script>
+</body>
+</html>

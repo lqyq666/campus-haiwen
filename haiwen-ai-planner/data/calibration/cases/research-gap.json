@@ -1,0 +1,26 @@
+{
+  "caseId": "research-gap",
+  "title": "科研短板",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "SOPHOMORE",
+    "rank": 8,
+    "cohortSize": 100,
+    "cet6Score": 530,
+    "dailyStudyHours": 3,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "researchExperiences": [],
+    "competitionExperiences": [
+      { "name": "校赛", "award": "一等奖", "level": "UNIVERSITY" }
+    ]
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "DUAL_TRACK",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["research"],
+    "expectedActionPriorities": ["BUILD_RESEARCH"]
+  }
+}

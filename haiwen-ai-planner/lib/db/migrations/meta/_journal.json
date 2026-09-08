@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1710000000000,
+      "tag": "0000_initial",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1787932800000,
+      "tag": "0001_enable_pgvector",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1787961600000,
+      "tag": "0002_school_evidence_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788048000000,
+      "tag": "0003_hybrid_retrieval",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788134400000,
+      "tag": "0004_lead_crm_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788220800000,
+      "tag": "0005_feishu_crm_sync",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788260400000,
+      "tag": "0006_calibration_workbench_v0_2",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788264000000,
+      "tag": "0007_lead_consent_v0_2",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788267600000,
+      "tag": "0008_event_analytics_v0_2",
+      "breakpoints": true
+    }
+  ]
+}

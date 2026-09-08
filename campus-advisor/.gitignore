@@ -1,0 +1,41 @@
+# ── 环境变量 ──
+.env
+
+# ── 运行时数据（含用户信息、对话、充值码、支付记录） ──
+activations.json
+available_codes.json
+valid_codes.json
+users.json
+user_profiles.json
+conversations.json
+session_tokens.json
+recharge_codes.json
+payments.json
+announcements.json
+custom_categories.json
+data/
+
+# ── Python 缓存 ──
+__pycache__/
+*.pyc
+.venv*/
+
+# ── IDE / 编辑器 ──
+.idea/
+.vscode/
+
+# ── 项目工具配置 ──
+.claude/
+.framesmith/
+.codebuddy-plugin/
+
+# ── 部署脚本（含阿里云密钥） ──
+deploy_swas.py
+upload_css.py
+test_deploy.py
+check_static.py
+deploy.py
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db

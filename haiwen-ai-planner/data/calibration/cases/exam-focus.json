@@ -1,0 +1,25 @@
+{
+  "caseId": "exam-focus",
+  "title": "考研主线",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "JUNIOR",
+    "rank": 35,
+    "cohortSize": 100,
+    "cet4Score": 480,
+    "dailyStudyHours": 4,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "targetUniversities": [],
+    "researchExperiences": [],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "POSTGRAD_EXAM",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["research"],
+    "expectedActionPriorities": ["START_EXAM_PREP"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "contractVersion": "campus-haiwen-contract-v0.2",
+  "assessment": {
+    "method": "POST",
+    "path": "/api/assessment",
+    "requestVersion": "assessment-v0.2",
+    "responseReportVersion": "assessment-report-v0.2",
+    "schoolTiers": ["STRETCH", "MATCH", "CONSERVATIVE", "INSUFFICIENT_DATA"]
+  },
+  "analytics": {
+    "method": "POST",
+    "path": "/api/events",
+    "schemaVersion": "analytics-event-v0.2",
+    "idempotencyField": "eventId"
+  },
+  "lead": {
+    "method": "POST",
+    "path": "/api/leads",
+    "consentVersion": "contact-consent-v0.2"
+  },
+  "authentication": {
+    "header": "X-Campus-Channel-Key",
+    "environment": "HAIWEN_CAMPUS_API_KEY"
+  }
+}

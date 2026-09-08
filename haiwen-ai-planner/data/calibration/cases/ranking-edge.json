@@ -1,0 +1,25 @@
+{
+  "caseId": "ranking-edge",
+  "title": "排名边缘",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "JUNIOR",
+    "rank": 20,
+    "cohortSize": 100,
+    "rankingTrend": "IMPROVING",
+    "cet6Score": 520,
+    "dailyStudyHours": 4,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "researchExperiences": [{ "title": "科研训练", "role": "PARTICIPANT" }],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "DUAL_TRACK",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["ranking"],
+    "expectedActionPriorities": ["IMPROVE_RANKING"]
+  }
+}

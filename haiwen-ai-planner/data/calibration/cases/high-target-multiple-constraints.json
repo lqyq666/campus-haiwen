@@ -1,0 +1,29 @@
+{
+  "caseId": "high-target-multiple-constraints",
+  "title": "目标偏高与多重约束",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "JUNIOR",
+    "rank": 25,
+    "cohortSize": 100,
+    "cet6Status": "TAKEN_UNKNOWN",
+    "dailyStudyHours": 1.5,
+    "weeklyAvailableHours": 12,
+    "financialConstraint": "BUDGET_SENSITIVE",
+    "familyConstraint": "希望留在本省",
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "targetUniversities": ["高目标院校"],
+    "riskPreference": "AGGRESSIVE",
+    "researchExperiences": [],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "POSTGRAD_EXAM",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["target-fit", "timing", "profile-completeness"],
+    "expectedActionPriorities": ["CLARIFY_TARGET", "START_EXAM_PREP"]
+  }
+}

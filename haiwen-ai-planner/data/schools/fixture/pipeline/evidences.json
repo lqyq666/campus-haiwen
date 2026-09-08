@@ -1,0 +1,92 @@
+[
+  {
+    "id": "fixture:e:1",
+    "sourceDocumentId": "fixture:s:1",
+    "programId": "fixture:p:1",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:2",
+    "sourceDocumentId": "fixture:s:2",
+    "programId": "fixture:p:2",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:3",
+    "sourceDocumentId": "fixture:s:3",
+    "programId": "fixture:p:3",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:4",
+    "sourceDocumentId": "fixture:s:4",
+    "programId": "fixture:p:4",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:5",
+    "sourceDocumentId": "fixture:s:5",
+    "programId": "fixture:p:1",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:6",
+    "sourceDocumentId": "fixture:s:6",
+    "programId": "fixture:p:2",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:7",
+    "sourceDocumentId": "fixture:s:1",
+    "programId": "fixture:p:3",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:8",
+    "sourceDocumentId": "fixture:s:2",
+    "programId": "fixture:p:4",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:9",
+    "sourceDocumentId": "fixture:s:3",
+    "programId": "fixture:p:1",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:e:10",
+    "sourceDocumentId": "fixture:s:4",
+    "programId": "fixture:p:2",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01"
+  }
+]

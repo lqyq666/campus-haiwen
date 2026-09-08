@@ -1,0 +1,29 @@
+services:
+  server:
+    build: .
+    container_name: campus-advisor
+    expose:
+      - "8002"
+    env_file:
+      - .env
+    volumes:
+      - data-volume:/app/data
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - WEB_CONCURRENCY=1
+
+  nginx:
+    image: nginx:alpine
+    container_name: campus-advisor-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./screenshot-qna.png:/usr/share/nginx/html/screenshot-qna.png:ro
+    depends_on:
+      - server
+    restart: unless-stopped
+
+volumes:
+  data-volume:

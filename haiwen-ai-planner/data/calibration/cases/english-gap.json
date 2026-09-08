@@ -1,0 +1,25 @@
+{
+  "caseId": "english-gap",
+  "title": "英语短板",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "SOPHOMORE",
+    "rank": 10,
+    "cohortSize": 100,
+    "cet6Status": "FAILED",
+    "cet6Score": 400,
+    "dailyStudyHours": 3,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "researchExperiences": [{ "title": "实验室项目", "role": "CORE" }],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "DUAL_TRACK",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["english", "policy"],
+    "expectedActionPriorities": ["IMPROVE_ENGLISH", "VERIFY_POLICY"]
+  }
+}

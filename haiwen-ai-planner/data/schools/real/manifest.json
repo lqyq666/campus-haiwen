@@ -1,0 +1,17 @@
+{
+  "datasetType": "REAL",
+  "datasetVersion": "real-school-data-v0.1",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "scope": {
+    "majors": [
+      "计算机科学与技术",
+      "软件工程",
+      "计算机技术",
+      "人工智能",
+      "智能科学与技术"
+    ],
+    "regions": ["江苏", "浙江"]
+  },
+  "sourcePolicy": "OFFICIAL_SCHOOL_GRADUATE_ADMISSIONS_ONLY",
+  "targetAdmissionYear": 2027
+}

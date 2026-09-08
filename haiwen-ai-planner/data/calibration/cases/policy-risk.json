@@ -1,0 +1,29 @@
+{
+  "caseId": "policy-risk",
+  "title": "政策风险",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "SOPHOMORE",
+    "rank": 8,
+    "cohortSize": 100,
+    "cet6Score": 460,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "targetUniversities": [],
+    "researchExperiences": [{ "title": "项目", "role": "CORE" }],
+    "competitionExperiences": [
+      { "name": "竞赛", "award": "一等奖", "level": "NATIONAL" }
+    ]
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "DUAL_TRACK",
+    "recommendationScoreRange": { "min": 0, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["english", "policy"],
+    "schoolExpectations": [
+      { "programId": "prog-east-cs", "expectedTier": "EXCLUDE" }
+    ],
+    "expectedActionPriorities": ["IMPROVE_ENGLISH", "VERIFY_POLICY"]
+  }
+}

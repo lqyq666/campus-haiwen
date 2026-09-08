@@ -1,0 +1,252 @@
+[
+  {
+    "contentHash": "5132df9745348978747596a72b2d302c981f62f2a4c3eba09aa281cf81cfcd1e",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "009 计算机科学与工程学院：081200 计算机科学与技术，全日制；083500 软件工程，全日制；085404 计算机技术，全日制；085410 人工智能，全日制；140500 智能科学与技术，全日制。",
+    "id": "real:evidence:1",
+    "programId": "real:program:seu:081200",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5132df9745348978747596a72b2d302c981f62f2a4c3eba09aa281cf81cfcd1e",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "009 计算机科学与工程学院：081200 计算机科学与技术，全日制；083500 软件工程，全日制；085404 计算机技术，全日制；085410 人工智能，全日制；140500 智能科学与技术，全日制。",
+    "id": "real:evidence:2",
+    "programId": "real:program:seu:083500",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5132df9745348978747596a72b2d302c981f62f2a4c3eba09aa281cf81cfcd1e",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "009 计算机科学与工程学院：081200 计算机科学与技术，全日制；083500 软件工程，全日制；085404 计算机技术，全日制；085410 人工智能，全日制；140500 智能科学与技术，全日制。",
+    "id": "real:evidence:3",
+    "programId": "real:program:seu:085404",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "b39d3781ec04612eec7f4cb6e31981e440c7964fe80e69ad26c584aa007154d2",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "南京大学计算机学院。计算机科学与技术、软件工程为本数据集收录的计算机相关硕士招生专业；具体年度招生目录以南京大学研究生招生网公布为准。",
+    "id": "real:evidence:4",
+    "programId": "real:program:nju:081200",
+    "sourceDocumentId": "real:source:nju:computer",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "b39d3781ec04612eec7f4cb6e31981e440c7964fe80e69ad26c584aa007154d2",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "南京大学计算机学院。计算机科学与技术、软件工程为本数据集收录的计算机相关硕士招生专业；具体年度招生目录以南京大学研究生招生网公布为准。",
+    "id": "real:evidence:5",
+    "programId": "real:program:nju:083500",
+    "sourceDocumentId": "real:source:nju:computer",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "36a3d3793c400184b2ec5b16bd68c3cba777f85b5607803f4d648c861e3d0a4e",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "2026年南京理工大学硕士研究生招生简章及目录。招生专业目录中的计划包含接收推荐免试和统一入学考试等各类计划；计算机科学与技术、计算机技术由计算机科学与工程学院招生。",
+    "id": "real:evidence:6",
+    "programId": "real:program:njust:081200",
+    "sourceDocumentId": "real:source:njust:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "36a3d3793c400184b2ec5b16bd68c3cba777f85b5607803f4d648c861e3d0a4e",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "2026年南京理工大学硕士研究生招生简章及目录。招生专业目录中的计划包含接收推荐免试和统一入学考试等各类计划；计算机科学与技术、计算机技术由计算机科学与工程学院招生。",
+    "id": "real:evidence:7",
+    "programId": "real:program:njust:085404",
+    "sourceDocumentId": "real:source:njust:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "249cba78158a40f4ebabc7302b8373a32623b27d41c19bd0662350a37d1ae158",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "081200计算机科学与技术",
+    "id": "real:evidence:8",
+    "programId": "real:program:nupt:081200",
+    "sourceDocumentId": "real:source:nupt:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "4abe7fdc70670d5ded8e1756b9002f4a0ddeac7d032408f7cf61559b73f273b2",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "085404计算机技术",
+    "id": "real:evidence:9",
+    "programId": "real:program:nupt:085404",
+    "sourceDocumentId": "real:source:nupt:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "249cba78158a40f4ebabc7302b8373a32623b27d41c19bd0662350a37d1ae158",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "081200计算机科学与技术",
+    "id": "real:evidence:10",
+    "programId": "real:program:hdu:081200",
+    "sourceDocumentId": "real:source:hdu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "4abe7fdc70670d5ded8e1756b9002f4a0ddeac7d032408f7cf61559b73f273b2",
+    "evidenceType": "ENROLLMENT",
+    "excerpt": "085404计算机技术",
+    "id": "real:evidence:11",
+    "programId": "real:program:hdu:085404",
+    "sourceDocumentId": "real:source:hdu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:12",
+    "programId": "real:program:seu:081200",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:policy:12",
+    "programId": "real:program:seu:081200",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:13",
+    "programId": "real:program:seu:083500",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:policy:13",
+    "programId": "real:program:seu:083500",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:14",
+    "programId": "real:program:seu:085404",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "5d9e3ff6da6d603e4fdc2549616e8934fe21c49dc4e7dc11dd2884c058b402ed",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "东南大学2027年接收推荐免试研究生报名通知。申请者应在本科学校可取得推荐免试研究生资格；报名材料包括本科阶段成绩单、外语成绩证明、学术成果证明和实践经历证明。",
+    "id": "real:evidence:policy:14",
+    "programId": "real:program:seu:085404",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "e93155e32421743a489fb7728c249040043775147e032d4119960163f6768ba8",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "南京大学2027年接收推荐免试研究生预报名通知。申请人应通过预报名系统提交申请；各院系预报名截止时间以学校汇总通知为准。",
+    "id": "real:evidence:15",
+    "programId": "real:program:nju:081200",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "e93155e32421743a489fb7728c249040043775147e032d4119960163f6768ba8",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "南京大学2027年接收推荐免试研究生预报名通知。申请人应通过预报名系统提交申请；各院系预报名截止时间以学校汇总通知为准。",
+    "id": "real:evidence:policy:15",
+    "programId": "real:program:nju:081200",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "e93155e32421743a489fb7728c249040043775147e032d4119960163f6768ba8",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "南京大学2027年接收推荐免试研究生预报名通知。申请人应通过预报名系统提交申请；各院系预报名截止时间以学校汇总通知为准。",
+    "id": "real:evidence:16",
+    "programId": "real:program:nju:083500",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "e93155e32421743a489fb7728c249040043775147e032d4119960163f6768ba8",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "南京大学2027年接收推荐免试研究生预报名通知。申请人应通过预报名系统提交申请；各院系预报名截止时间以学校汇总通知为准。",
+    "id": "real:evidence:policy:16",
+    "programId": "real:program:nju:083500",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "86d9677e127e722d84ef82875a10f256e5837a1e2891fd8f5c5d7918c81592ea",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "2027年南京理工大学推荐免试研究生预报名的通知列出计算机科学与工程学院、智能科学与技术学院等招生单位的预推免安排。",
+    "id": "real:evidence:17",
+    "programId": "real:program:njust:081200",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "86d9677e127e722d84ef82875a10f256e5837a1e2891fd8f5c5d7918c81592ea",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "2027年南京理工大学推荐免试研究生预报名的通知列出计算机科学与工程学院、智能科学与技术学院等招生单位的预推免安排。",
+    "id": "real:evidence:policy:17",
+    "programId": "real:program:njust:081200",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "86d9677e127e722d84ef82875a10f256e5837a1e2891fd8f5c5d7918c81592ea",
+    "evidenceType": "ELIGIBILITY",
+    "excerpt": "2027年南京理工大学推荐免试研究生预报名的通知列出计算机科学与工程学院、智能科学与技术学院等招生单位的预推免安排。",
+    "id": "real:evidence:18",
+    "programId": "real:program:njust:085404",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "contentHash": "86d9677e127e722d84ef82875a10f256e5837a1e2891fd8f5c5d7918c81592ea",
+    "evidenceType": "POLICY_TEXT",
+    "excerpt": "2027年南京理工大学推荐免试研究生预报名的通知列出计算机科学与工程学院、智能科学与技术学院等招生单位的预推免安排。",
+    "id": "real:evidence:policy:18",
+    "programId": "real:program:njust:085404",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

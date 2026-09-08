@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Advisor · 管理后台</title>
+<link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/pages/admin.css">
+</head>
+<body>
+
+<div class="login-box" id="loginBox">
+  <h1>管理后台</h1>
+  <input type="password" id="adminToken" placeholder="输入管理员密码" autocomplete="off">
+  <button onclick="doLogin()">登录</button>
+  <div class="login-err" id="loginErr"></div>
+</div>
+
+<div class="app" id="app">
+  <nav>
+    <h1>Campus Advisor · 管理后台</h1>
+    <a class="nav-link active" onclick="switchPage('dashboard')">概览</a>
+    <a class="nav-link" onclick="switchPage('recharge')">充值码</a><a class="nav-link" onclick="switchPage('users')">用户</a>
+    <a class="nav-link" onclick="switchPage('announcements')">消息</a>
+    <a class="nav-link" onclick="switchPage('about')">关于</a>
+    <a class="nav-link" style="color:var(--red)" onclick="doLogout()">退出</a>
+  </nav>
+
+  <!-- Dashboard -->
+  <div class="page active" id="page-dashboard">
+    <div class="stats-row" id="statsRow">
+      <div class="stat-box"><div class="stat-num" id="statUsers">-</div><div class="stat-label">用户数</div></div>
+    </div>
+    <div class="card">
+      <h2>状态</h2>
+      <p style="color:var(--green);font-size:1.1rem;font-weight:600;">免费 / 无限制</p>
+      <p style="color:var(--text2);font-size:0.85rem;">所有功能免费，无需支付处理。</p>
+    </div>
+  </div>
+
+  <!-- Recharge Codes -->
+  <div class="page" id="page-recharge">
+    <div class="card">
+      <h2>生成充值码</h2>
+      <div class="toolbar">
+        <span style="font-size:0.85rem;color:var(--text2);">数量：</span>
+        <input type="number" id="rcCount" value="5" min="1" max="100" style="width:60px;">
+        <span style="font-size:0.85rem;color:var(--text2);">面值（积分）：</span>
+        <select id="rcValue">
+          <option value="100">100</option>
+          <option value="500">500</option>
+          <option value="1000" selected>1000</option>
+          <option value="2000">2000</option>
+          <option value="5000">5000</option>
+        </select>
+        <button class="btn btn-primary" onclick="genRechargeCodes()">生成</button>
+      </div>
+      <div class="msg" id="rcMsg"></div>
+    </div>
+    <div class="card">
+      <h2>充值码列表</h2>
+      <div id="rcList"><div style="color:var(--text2);font-size:0.85rem;">加载中...</div></div>
+    </div>
+  </div>
+
+  <!-- Users -->
+  <div class="page" id="page-users">
+    <div class="stats-row">
+      <div class="stat-box"><div class="stat-num" id="userTotal">-</div><div class="stat-label">总用户数</div></div>
+    </div>
+    <div class="card">
+      <div class="toolbar">
+        <input type="text" id="userSearch" placeholder="搜索 session_id / 学校 / 专业..." style="flex:1;" oninput="filterUsers()">
+      </div>
+      <div id="userList"><div style="color:var(--text2);font-size:0.85rem;">加载中...</div></div>
+    </div>
+  </div>
+
+  <!-- Messages -->
+  <div class="page" id="page-announcements">
+    <div class="card">
+      <h2>发送通知</h2>
+      <div class="ann-form">
+        <input type="text" id="annTitle" placeholder="标题（如：系统更新）" value="系统通知">
+        <textarea id="annContent" placeholder="消息内容..." rows="4"></textarea>
+        <div class="toolbar">
+          <span style="font-size:0.85rem;color:var(--text2);">目标：</span>
+          <select id="annTarget">
+            <option value="all">全部用户</option>
+          </select>
+          <button class="btn btn-primary" onclick="sendAnnouncement()">发送</button>
+        </div>
+      </div>
+      <div class="msg" id="annMsg"></div>
+    </div>
+    <div class="card">
+      <h2>已发送通知</h2>
+      <div id="annList"><div style="color:var(--text2);font-size:0.85rem;">加载中...</div></div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="page" id="page-about">
+    <div class="card">
+      <h2>部署配置</h2>
+      <table>
+        <tr><th>配置项</th><th>位置</th></tr>
+        <tr><td>管理员密码</td><td>.env → ADMIN_TOKEN</td></tr>
+        <tr><td>DeepSeek Key</td><td>.env → DEEPSEEK_API_KEY</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script src="static/js/pages/admin.js"></script>
+</body>
+</html>

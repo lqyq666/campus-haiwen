@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fixture:ap:1",
+    "programId": "fixture:p:1",
+    "sourceDocumentId": "fixture:s:1",
+    "admissionYear": 2026,
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "examSubjects": [],
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:ap:2",
+    "programId": "fixture:p:2",
+    "sourceDocumentId": "fixture:s:2",
+    "admissionYear": 2027,
+    "freshness": "CURRENT",
+    "examSubjects": [],
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

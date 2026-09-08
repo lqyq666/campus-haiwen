@@ -1,0 +1,21 @@
+openapi: 3.1.0
+info: { title: Campus–Haiwen Channel API, version: 0.2.0 }
+paths:
+  /api/assessment:
+    post:
+      summary: Request deterministic assessment-v0.2
+      requestBody: { required: true }
+      responses: { '200': { description: assessment-report-v0.2 }, '400': { description: Invalid request } }
+  /api/events:
+    post:
+      summary: Idempotently ingest analytics-event-v0.2
+      security: [{ CampusChannelKey: [] }]
+      responses: { '201': { description: Ingested }, '200': { description: Duplicate }, '400': { description: Invalid event } }
+  /api/leads:
+    post:
+      summary: Persist a consent-aware lead before CRM projection
+      security: [{ CampusChannelKey: [] }]
+      responses: { '200': { description: Persisted }, '400': { description: Invalid request } }
+components:
+  securitySchemes:
+    CampusChannelKey: { type: apiKey, in: header, name: X-Campus-Channel-Key }

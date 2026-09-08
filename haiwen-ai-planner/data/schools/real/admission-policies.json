@@ -1,0 +1,123 @@
+[
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:seu:081200:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:seu:081200",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:seu:083500:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:seu:083500",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:seu:085404:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:seu:085404",
+    "sourceDocumentId": "real:source:seu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:nju:081200:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:nju:081200",
+    "sourceDocumentId": "real:source:nju:computer",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:nju:083500:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:nju:083500",
+    "sourceDocumentId": "real:source:nju:computer",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:njust:081200:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:njust:081200",
+    "sourceDocumentId": "real:source:njust:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:njust:085404:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:njust:085404",
+    "sourceDocumentId": "real:source:njust:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:nupt:081200:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:nupt:081200",
+    "sourceDocumentId": "real:source:nupt:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:nupt:085404:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:nupt:085404",
+    "sourceDocumentId": "real:source:nupt:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:hdu:081200:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:hdu:081200",
+    "sourceDocumentId": "real:source:hdu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2026,
+    "examSubjects": [],
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "id": "real:admission:hdu:085404:2026",
+    "notes": "历史目录事实；不作为2027当前招生政策。",
+    "programId": "real:program:hdu:085404",
+    "sourceDocumentId": "real:source:hdu:2026:catalog",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

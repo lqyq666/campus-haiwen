@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "framesmith": {
+      "command": "npx",
+      "args": ["-y", "framesmith"]
+    }
+  }
+}

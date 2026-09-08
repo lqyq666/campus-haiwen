@@ -1,0 +1,8 @@
+allowBuilds:
+  bufferutil: true
+  esbuild: true
+  sharp: true
+onlyBuiltDependencies:
+  - bufferutil
+  - esbuild
+  - sharp

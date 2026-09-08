@@ -1,0 +1,31 @@
+{
+  "reviews": [
+    {
+      "caseId": "strong-recommendation",
+      "expertExpectation": {
+        "expectationSource": "EXPERT_REVIEW",
+        "expectedPath": "RECOMMENDATION",
+        "recommendationScoreRange": { "min": 70, "max": 95 },
+        "expectedTopRisks": ["policy"],
+        "expectedMissingData": [],
+        "schoolExpectations": [],
+        "expectedActionPriorities": ["VERIFY_POLICY"],
+        "reviewerRole": "保研规划老师",
+        "reviewedAt": "2026-08-29"
+      }
+    },
+    {
+      "caseId": "strong-recommendation",
+      "expertExpectation": {
+        "expectationSource": "EXPERT_REVIEW",
+        "expectedPath": "RECOMMENDATION",
+        "expectedTopRisks": [],
+        "expectedMissingData": [],
+        "schoolExpectations": [],
+        "expectedActionPriorities": [],
+        "reviewerRole": "考研规划老师",
+        "reviewedAt": "2026-08-29"
+      }
+    }
+  ]
+}

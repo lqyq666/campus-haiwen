@@ -1,0 +1,78 @@
+[
+  {
+    "id": "fixture:s:1",
+    "sourceUrl": "https://fixture.invalid/1",
+    "title": "测试来源1",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "admissionYear": 2026,
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:s:2",
+    "sourceUrl": "https://fixture.invalid/2",
+    "title": "测试来源2",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "admissionYear": 2027,
+    "freshness": "CURRENT",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:s:3",
+    "sourceUrl": "https://fixture.invalid/3",
+    "title": "测试来源3",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:s:4",
+    "sourceUrl": "https://fixture.invalid/4",
+    "title": "测试来源4",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:s:5",
+    "sourceUrl": "https://fixture.invalid/5",
+    "title": "测试来源5",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:s:6",
+    "sourceUrl": "https://fixture.invalid/6",
+    "title": "测试来源6",
+    "sourceType": "TEST_FIXTURE",
+    "sourceTrust": "TEST_FIXTURE",
+    "fetchedAt": "2026-01-01",
+    "rawText": "测试政策。",
+    "contentHash": "64fb01fabc6503dd74760a3bd9939d3f44b10b1e1b0c1e58b1ea20717122f78c",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

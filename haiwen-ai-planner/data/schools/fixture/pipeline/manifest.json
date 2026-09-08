@@ -1,0 +1,8 @@
+{
+  "datasetVersion": "pipeline-fixture-v0.1",
+  "datasetType": "FIXTURE",
+  "targetAdmissionYear": 2027,
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "scope": { "regions": ["测试"], "majors": ["计算机"] },
+  "sourcePolicy": "TEST_FIXTURE"
+}

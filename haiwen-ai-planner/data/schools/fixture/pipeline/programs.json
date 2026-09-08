@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fixture:p:1",
+    "universityId": "fixture:u:1",
+    "departmentId": "fixture:d:1",
+    "name": "计算机科学与技术",
+    "active": true,
+    "admissionType": "EXAM",
+    "degreeType": "ACADEMIC",
+    "studyMode": "FULL_TIME",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:p:2",
+    "universityId": "fixture:u:1",
+    "departmentId": "fixture:d:1",
+    "name": "人工智能",
+    "active": true,
+    "admissionType": "EXAM",
+    "degreeType": "ACADEMIC",
+    "studyMode": "FULL_TIME",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:p:3",
+    "universityId": "fixture:u:2",
+    "departmentId": "fixture:d:2",
+    "name": "软件工程",
+    "active": true,
+    "admissionType": "EXAM",
+    "degreeType": "ACADEMIC",
+    "studyMode": "FULL_TIME",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:p:4",
+    "universityId": "fixture:u:2",
+    "departmentId": "fixture:d:2",
+    "name": "计算机技术",
+    "active": true,
+    "admissionType": "RECOMMENDATION",
+    "degreeType": "PROFESSIONAL",
+    "studyMode": "FULL_TIME",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

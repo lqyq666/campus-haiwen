@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Advisor · AI 校园信息助手</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+  <!-- Markdown + Math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/pages/index.css">
+</head>
+<body>
+  <div id="scroll-progress"></div>
+  <!-- ─── Nav ─── -->
+  <nav>
+    <div class="container">
+      <a href="#" class="nav-logo">Campus<span>Advisor</span></a>
+      <div class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#how">使用说明</a>
+      </div>
+      <div class="nav-actions" id="navActions">
+        <a href="qna.html" class="nav-cta">开始使用</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <div class="hero-badge">AI校园信息顾问</div>
+          <h1>Campus Advisor</h1>
+          <p class="hero-desc">
+            想了解<span id="typewriter"><span class="tw-word c-0" id="tw-word"></span></span><span id="cursor">|</span>吗？
+            输入你的学校和专业，获取为你量身定制的答案。
+          </p>
+          <div class="hero-actions">
+            <a href="qna.html" class="hero-cta">开始使用</a>
+            <a href="#features" class="hero-ghost">探索功能 &darr;</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hc-top">
+              <div class="hc-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="hc-title">Campus Advisor</span>
+            </div>
+            <div class="hc-chat">
+              <div class="hc-msg bot">你好！我是Campus Advisor，有什么可以帮你的？</div>
+              <div class="hc-msg user">成都理工大学，电气工程，大一——如何规划考研？</div>
+              <div class="hc-msg bot typing">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-scroll">
+      <span>向下滚动</span>
+      <svg width="16" height="24" viewBox="0 0 16 24"><rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" fill="none" stroke-width="1.5"/><circle cx="8" cy="8" r="2" fill="currentColor" class="scroll-dot"/></svg>
+    </div>
+  </section>
+
+  <!-- ─── Full-Page Features ─── -->
+  <section class="features-full" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>六大核心功能</h2>
+        <p>考研保研 · 选课指导 · 竞赛指南 · 实习攻略<br>学习加速器 · 论文指导</p>
+      </div>
+      <div class="feature-panels">
+
+        <div class="feature-panel reveal reveal-delay-1" onclick="location.href='qna.html?mode=1'">
+          <div class="fp-icon gold">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">考研/保研</span>
+            <h3>考研保研咨询</h3>
+            <p>从目标拆解到硬性条件清单，再到分阶段时间线。不同层次不同策略——杜绝千篇一律。</p>
+            <div class="fp-details">
+              <span>目标拆解</span><span>条件清单</span><span>分阶段时间线</span><span>差异化策略</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+        <div class="feature-panel reveal reveal-delay-2" onclick="location.href='qna.html?mode=2'">
+          <div class="fp-icon blue">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">选课</span>
+            <h3>选课指导</h3>
+            <p>不仅告诉你选什么——还教你如何查看给分风格、计算学分价值、避免时间冲突。</p>
+            <div class="fp-details">
+              <span>给分风格分析</span><span>学分价值</span><span>冲突检测</span><span>课程规划</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+        <div class="feature-panel reveal reveal-delay-3" onclick="location.href='qna.html?mode=3'">
+          <div class="fp-icon green">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">竞赛</span>
+            <h3>竞赛指南</h3>
+            <p>按含金量排名，按时间投入评估。告诉你值不值得参加、如何组队、如何找导师。</p>
+            <div class="fp-details">
+              <span>含金量评估</span><span>时间投入</span><span>团队组建</span><span>备赛指南</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+        <div class="feature-panel reveal reveal-delay-4" onclick="location.href='qna.html?mode=4'">
+          <div class="fp-icon purple">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><circle cx="12" cy="14" r="2"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">实习</span>
+            <h3>实习攻略</h3>
+            <p>何时申请、去哪里找、怎么写简历。按专业定制，拒绝泛泛而谈。</p>
+            <div class="fp-details">
+              <span>时间窗口</span><span>渠道选择</span><span>简历准备</span><span>行业建议</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+        <!-- ─── General Learning Accelerator ─── -->
+        <div class="feature-panel reveal reveal-delay-1" onclick="location.href='qna.html?mode=5'">
+          <div class="fp-icon amber">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">学习</span>
+            <h3>学习加速器</h3>
+            <p>学任何东西：新技能、新领域、一本书、一个行业。提供材料或只给一个主题——AI带你从入门到精通。</p>
+            <div class="fp-details">
+              <span>新领域入门</span><span>技能速成</span><span>行业概览</span><span>深度学习</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+        <!-- ─── Thesis Guidance ─── -->
+        <div class="feature-panel reveal reveal-delay-2" onclick="location.href='qna.html?mode=6'">
+          <div class="fp-icon pink">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5C7 4 7 7 10 7"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5C17 4 17 7 14 7"/><path d="M4 22h16"/><path d="M10 22V7"/><path d="M14 22V7"/><path d="M12 7v15"/><path d="M8 15a4 4 0 0 0 8 0"/></svg>
+          </div>
+          <div class="fp-content">
+            <span class="tag">论文</span>
+            <h3>论文指导</h3>
+            <p>从零到答辩。内置论文知识库和真实案例，帮你选题、找导师、制定写作策略。</p>
+            <div class="fp-details">
+              <span>选题指导</span><span>导师选择</span><span>写作策略</span><span>答辩准备</span>
+            </div>
+          </div>
+          <div class="fp-arrow">&rarr;</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── How It Works ─── -->
+  <section class="how-it-works" id="how">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>三步开始</h2>
+        <p>填写信息 → 选择方向 → 获取定制答案</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal reveal-delay-1">
+          <div class="step-num"></div>
+          <h3>填写你的信息</h3>
+          <p>学校、专业、年级。有目标可以加上，没有也可以跳过。填写后永久保存。</p>
+        </div>
+        <div class="step reveal reveal-delay-2">
+          <div class="step-num"></div>
+          <h3>选择方向</h3>
+          <p>考研保研、选课、竞赛、实习——或者直接输入你的问题。也可以创建自定义咨询类别。</p>
+        </div>
+        <div class="step reveal reveal-delay-3">
+          <div class="step-num"></div>
+          <h3>获取定制答案</h3>
+          <p>基于你的学校、专业和背景给出针对性建议——不是搜索引擎上能查到的泛泛信息。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA ─── -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>立即体验</h2>
+      <p>打开对话，随心提问。也可以创建属于你自己的定制咨询类别。</p>
+      <a href="qna.html" class="hero-cta">开始使用</a>
+    </div>
+  </section>
+
+<div class="auth-overlay" id="authOverlay">
+  <div class="auth-modal">
+    <div class="auth-bar">
+      <button class="on" onclick="switchAuth('login')">登录</button>
+      <button onclick="switchAuth('register')">注册</button>
+      <button onclick="switchAuth('forgot')">忘记密码</button>
+      <button class="close-btn" onclick="closeAuth()">&times;</button>
+    </div>
+
+    <div id="pageLogin" class="auth-page show">
+      <label for="loginId">邮箱或手机号</label>
+      <input type="text" id="loginId" placeholder="请输入邮箱或手机号">
+      <label for="loginPwd">密码</label>
+      <input type="password" id="loginPwd" placeholder="请输入密码">
+      <button class="btn" onclick="doLogin()">登录</button>
+      <div id="loginMsg" class="msg"></div>
+    </div>
+
+    <div id="pageRegister" class="auth-page">
+      <div class="method-tabs">
+        <button class="on" onclick="switchMethod('register','email')">邮箱</button>
+        <button onclick="switchMethod('register','phone')">手机</button>
+      </div>
+      <div id="regEmail">
+        <label for="regEmailInput">邮箱</label>
+        <input type="email" id="regEmailInput" placeholder="请输入邮箱">
+      </div>
+      <div id="regPhone" style="display:none">
+        <label for="regPhoneInput">手机号</label>
+        <input type="tel" id="regPhoneInput" placeholder="请输入手机号">
+      </div>
+      <label for="regPwd">密码</label>
+      <input type="password" id="regPwd" placeholder="至少6个字符">
+      <label for="regConfirm">确认密码</label>
+      <input type="password" id="regConfirm" placeholder="再次输入密码">
+      <button class="btn" onclick="doRegister()">注册</button>
+      <div id="regMsg" class="msg"></div>
+    </div>
+
+    <div id="pageForgot" class="auth-page">
+      <div class="method-tabs">
+        <button class="on" onclick="switchMethod('forgot','email')">邮箱</button>
+        <button onclick="switchMethod('forgot','phone')">手机</button>
+      </div>
+      <div id="forgotEmail">
+        <label for="forgotEmailInput">邮箱</label>
+        <input type="email" id="forgotEmailInput" placeholder="请输入注册邮箱">
+      </div>
+      <div id="forgotPhone" style="display:none">
+        <label for="forgotPhoneInput">手机号</label>
+        <input type="tel" id="forgotPhoneInput" placeholder="请输入注册手机号">
+      </div>
+      <button class="btn" onclick="doForgot()">发送重置验证码</button>
+      <div id="forgotMsg" class="msg"></div>
+    </div>
+
+    <div id="pageReset" class="auth-page">
+      <label for="resetToken">验证码</label>
+      <input type="text" id="resetToken" placeholder="请输入收到的验证码">
+      <label for="resetPwd">新密码</label>
+      <input type="password" id="resetPwd" placeholder="至少6个字符">
+      <button class="btn" onclick="doReset()">重置密码</button>
+      <div id="resetMsg" class="msg"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <div class="container">
+      Campus Advisor &middot; AI校园信息顾问
+    </div>
+  </footer>
+
+  <script src="static/js/pages/index.js"></script>
+</body>
+</html>

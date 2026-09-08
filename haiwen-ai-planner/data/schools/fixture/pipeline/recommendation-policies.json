@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fixture:rp:1",
+    "programId": "fixture:p:3",
+    "sourceDocumentId": "fixture:s:3",
+    "admissionYear": 2026,
+    "freshness": "LATEST_OFFICIAL_HISTORICAL",
+    "stage": "SUMMER_CAMP",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:rp:2",
+    "programId": "fixture:p:4",
+    "sourceDocumentId": "fixture:s:4",
+    "admissionYear": 2027,
+    "freshness": "CURRENT",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

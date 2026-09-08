@@ -1,0 +1,117 @@
+openapi: 3.1.0
+info:
+  title: Campus–Haiwen Channel API
+  version: 0.2.0
+servers:
+  - url: http://127.0.0.1:3011
+paths:
+  /api/assessment:
+    post:
+      operationId: createAssessment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/AssessmentRequest' }
+      responses:
+        '200':
+          description: Deterministic assessment and official sources
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/AssessmentResponse' }
+        '400': { description: Invalid profile or contract version }
+        '422': { description: Assessment could not produce a valid report }
+  /api/events:
+    post:
+      operationId: ingestAnalyticsEvent
+      security: [{ CampusChannelKey: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/AnalyticsEvent' }
+      responses:
+        '201': { description: Event ingested }
+        '200': { description: Duplicate accepted idempotently }
+        '400': { description: Invalid event }
+        '401': { description: Invalid channel key }
+  /api/leads:
+    post:
+      operationId: createOrUpdateLead
+      security: [{ CampusChannelKey: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/LeadRequest' }
+      responses:
+        '200': { description: Lead persisted before optional CRM projection }
+        '400': { description: Invalid contact, profile, or report }
+        '401': { description: Invalid channel key }
+components:
+  securitySchemes:
+    CampusChannelKey:
+      type: apiKey
+      in: header
+      name: X-Campus-Channel-Key
+  schemas:
+    AssessmentRequest:
+      type: object
+      required: [assessmentVersion, admissionYear, profile]
+      properties:
+        assessmentVersion: { const: assessment-v0.2 }
+        admissionYear: { type: integer, minimum: 2000, maximum: 2100 }
+        profile: { type: object, additionalProperties: true }
+      additionalProperties: false
+    AssessmentResponse:
+      type: object
+      required: [assessmentVersion, profile, report, sourceDocuments, warnings]
+      properties:
+        assessmentVersion: { const: assessment-v0.2 }
+        profile: { type: object }
+        report:
+          type: object
+          required: [reportVersion, recommendationScore, postgraduateExamScore, pathDecision, schoolRecommendations, evidenceIndex]
+          properties:
+            reportVersion: { const: assessment-report-v0.2 }
+            recommendationScore: { type: object }
+            postgraduateExamScore: { type: object }
+            pathDecision: { type: object }
+            schoolRecommendations: { type: array, items: { type: object } }
+            evidenceIndex: { type: object }
+        sourceDocuments: { type: object }
+        warnings: { type: array, items: { type: object } }
+    AnalyticsEvent:
+      type: object
+      required: [eventId, eventType, occurredAt]
+      properties:
+        eventId: { type: string, minLength: 1, maxLength: 128 }
+        eventType: { type: string }
+        sessionId: { type: string }
+        studentProfileId: { type: string }
+        leadId: { type: string }
+        programId: { type: string }
+        cohortTag: { type: string }
+        metadata: { type: object }
+        occurredAt: { type: string, format: date-time }
+        schemaVersion: { const: analytics-event-v0.2 }
+      additionalProperties: false
+    LeadRequest:
+      type: object
+      required: [contact, profile, report]
+      properties:
+        assessmentId: { type: string }
+        sessionId: { type: string }
+        cohortTag: { type: string }
+        contact:
+          type: object
+          required: [consentToContact]
+          properties:
+            consentToContact: { type: boolean, default: false }
+            name: { type: string }
+            phone: { type: string }
+            wechat: { type: string }
+            email: { type: string, format: email }
+        profile: { type: object }
+        report: { type: object }
+        requestConsultation: { type: boolean, default: false }

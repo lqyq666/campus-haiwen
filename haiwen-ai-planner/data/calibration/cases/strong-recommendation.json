@@ -1,0 +1,26 @@
+{
+  "caseId": "strong-recommendation",
+  "title": "强保研",
+  "admissionYear": 2026,
+  "profile": {
+    "grade": "SOPHOMORE",
+    "rank": 5,
+    "cohortSize": 100,
+    "cet6Score": 560,
+    "targetCities": ["上海"],
+    "targetMajors": ["计算机"],
+    "targetUniversities": [],
+    "researchExperiences": [{ "title": "项目", "role": "CORE" }],
+    "competitionExperiences": [
+      { "name": "竞赛", "award": "一等奖", "level": "NATIONAL" }
+    ]
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "RECOMMENDATION",
+    "recommendationScoreRange": { "min": 60, "max": 100 },
+    "postgraduateScoreRange": { "min": 0, "max": 100 },
+    "expectedTopRisks": ["policy"],
+    "expectedActionPriorities": ["VERIFY_POLICY"]
+  }
+}

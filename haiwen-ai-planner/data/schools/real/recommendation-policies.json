@@ -1,0 +1,79 @@
+[
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:seu:081200:2027",
+    "programId": "real:program:seu:081200",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:seu:083500:2027",
+    "programId": "real:program:seu:083500",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:seu:085404:2027",
+    "programId": "real:program:seu:085404",
+    "sourceDocumentId": "real:source:seu:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:nju:081200:2027",
+    "programId": "real:program:nju:081200",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:nju:083500:2027",
+    "programId": "real:program:nju:083500",
+    "sourceDocumentId": "real:source:nju:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:njust:081200:2027",
+    "programId": "real:program:njust:081200",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "admissionYear": 2027,
+    "eligibilityNotes": "以学校及学院当年官方通知为准。",
+    "freshness": "CURRENT",
+    "id": "real:recommendation:njust:085404:2027",
+    "programId": "real:program:njust:085404",
+    "sourceDocumentId": "real:source:njust:2027:recommendation",
+    "stage": "PRE_RECOMMENDATION",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

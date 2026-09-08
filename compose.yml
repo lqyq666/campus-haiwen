@@ -1,0 +1,71 @@
+name: campus-haiwen
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: haiwen
+      POSTGRES_USER: haiwen
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    command: [postgres, -c, shared_buffers=128MB, -c, max_connections=50]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U haiwen -d haiwen]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  migrate:
+    build:
+      context: ./haiwen-ai-planner
+      target: migrate
+    restart: "no"
+    environment:
+      POSTGRES_URL: ${POSTGRES_URL}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  haiwen:
+    build:
+      context: ./haiwen-ai-planner
+      target: runner
+    restart: unless-stopped
+    env_file: ./haiwen.env
+    environment:
+      PORT: "3011"
+      POSTGRES_URL: ${POSTGRES_URL}
+      CAMPUS_CHANNEL_API_KEY: ${CAMPUS_CHANNEL_API_KEY}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    ports:
+      - 127.0.0.1:3011:3011
+
+  campus:
+    build:
+      context: ./campus-advisor
+    restart: unless-stopped
+    env_file: ./campus.env
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8002"
+      WEB_CONCURRENCY: "1"
+      HAIWEN_BASE_URL: http://haiwen:3011
+      HAIWEN_ASSESSMENT_URL: http://haiwen:3011/api/assessment
+      HAIWEN_LEAD_URL: http://haiwen:3011/api/leads
+      HAIWEN_CAMPUS_API_KEY: ${CAMPUS_CHANNEL_API_KEY}
+    depends_on:
+      haiwen:
+        condition: service_healthy
+    ports:
+      - 127.0.0.1:8002:8002
+    volumes:
+      - campus-data:/app/data
+
+volumes:
+  postgres-data:
+  campus-data:
+

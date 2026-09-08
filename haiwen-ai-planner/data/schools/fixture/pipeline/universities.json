@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fixture:u:1",
+    "name": "江南测试大学",
+    "active": true,
+    "tags": [],
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:u:2",
+    "name": "东海测试大学",
+    "active": true,
+    "tags": [],
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

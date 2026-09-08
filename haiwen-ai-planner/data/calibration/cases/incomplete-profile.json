@@ -1,0 +1,19 @@
+{
+  "caseId": "incomplete-profile",
+  "title": "信息不足",
+  "admissionYear": 2026,
+  "profile": {
+    "targetCities": [],
+    "targetMajors": [],
+    "targetUniversities": [],
+    "researchExperiences": [],
+    "competitionExperiences": []
+  },
+  "expertExpectation": {
+    "expectationSource": "SYNTHETIC_TEST",
+    "expectedPath": "INSUFFICIENT_DATA",
+    "expectedTopRisks": ["profile-completeness", "target-fit"],
+    "expectedMissingData": ["profile-completeness"],
+    "expectedActionPriorities": ["CLARIFY_TARGET"]
+  }
+}

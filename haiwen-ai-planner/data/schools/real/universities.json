@@ -1,0 +1,67 @@
+[
+  {
+    "active": true,
+    "city": "南京",
+    "id": "real:university:seu",
+    "name": "东南大学",
+    "officialWebsite": "https://www.seu.edu.cn/",
+    "province": "江苏",
+    "shortName": "东大",
+    "tags": ["计算机", "硕士招生"],
+    "type": "PUBLIC_UNIVERSITY",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "active": true,
+    "city": "南京",
+    "id": "real:university:nju",
+    "name": "南京大学",
+    "officialWebsite": "https://www.nju.edu.cn/",
+    "province": "江苏",
+    "shortName": "南大",
+    "tags": ["计算机", "硕士招生"],
+    "type": "PUBLIC_UNIVERSITY",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "active": true,
+    "city": "南京",
+    "id": "real:university:njust",
+    "name": "南京理工大学",
+    "officialWebsite": "https://www.njust.edu.cn/",
+    "province": "江苏",
+    "shortName": "南理工",
+    "tags": ["计算机", "硕士招生"],
+    "type": "PUBLIC_UNIVERSITY",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "active": true,
+    "city": "南京",
+    "id": "real:university:nupt",
+    "name": "南京邮电大学",
+    "officialWebsite": "https://www.njupt.edu.cn/",
+    "province": "江苏",
+    "shortName": "南邮",
+    "tags": ["计算机", "硕士招生"],
+    "type": "PUBLIC_UNIVERSITY",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "active": true,
+    "city": "杭州",
+    "id": "real:university:hdu",
+    "name": "杭州电子科技大学",
+    "officialWebsite": "https://www.hdu.edu.cn/",
+    "province": "浙江",
+    "shortName": "杭电",
+    "tags": ["计算机", "硕士招生"],
+    "type": "PUBLIC_UNIVERSITY",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

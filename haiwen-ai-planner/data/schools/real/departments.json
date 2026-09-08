@@ -1,0 +1,37 @@
+[
+  {
+    "id": "real:department:seu:computer",
+    "name": "计算机科学与工程学院",
+    "universityId": "real:university:seu",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "real:department:nju:computer",
+    "name": "计算机学院",
+    "universityId": "real:university:nju",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "real:department:njust:computer",
+    "name": "计算机科学与工程学院",
+    "universityId": "real:university:njust",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "real:department:nupt:computer",
+    "name": "计算机学院、软件学院",
+    "universityId": "real:university:nupt",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "real:department:hdu:computer",
+    "name": "计算机学院（软件学院）",
+    "universityId": "real:university:hdu",
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

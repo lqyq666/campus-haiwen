@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fixture:d:1",
+    "universityId": "fixture:u:1",
+    "name": "计算机学院",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  },
+  {
+    "id": "fixture:d:2",
+    "universityId": "fixture:u:2",
+    "name": "软件学院",
+    "createdAt": "2026-01-01",
+    "updatedAt": "2026-01-01"
+  }
+]

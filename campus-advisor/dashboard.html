@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Advisor · 仪表盘</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/pages/dashboard.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-btn" href="qna.html">← 返回问答</a>
+  <h1>仪表盘</h1>
+  <button class="nav-btn nav-btn-primary" onclick="location.href='qna.html'">开始对话</button>
+</nav>
+
+<!-- Loading -->
+<div class="loading" id="loading">
+  <span>加载中...</span>
+</div>
+
+<!-- Main content (hidden until loaded) -->
+<div class="container" id="app" style="display:none">
+
+  <!-- Announcements -->
+  <div id="announcementsBanner" style="display:none;"></div>
+
+  <!-- Progress Card -->
+  <div class="card" id="progressCard" style="display:none;">
+    <div class="progress-display">
+      <div class="progress-icon" id="progressIcon">🌱</div>
+      <div class="progress-info">
+        <div class="progress-label" id="progressLabel">New Explorer</div>
+        <div class="progress-desc" id="progressDesc">Start your first consultation</div>
+      </div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressBarFill" style="width:0%"></div>
+      </div>
+      <div class="progress-stats">
+        <span id="progressConvs">0</span> 对话 · <span id="progressMsgs">0</span> 消息
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="card" style="padding:16px 20px;">
+    <div class="quick-actions">
+      <a class="quick-btn primary" href="qna.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        开始对话
+      </a>
+      <a class="quick-btn" id="continueBtn" href="qna.html" style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="6 4 10 8 6 12"/><line x1="10" y1="4" x2="18" y2="4"/></svg>
+        继续上次对话
+      </a>
+      <button class="quick-btn" onclick="openRecharge()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+        充值
+      </button>
+      <button class="quick-btn" onclick="openEditProfile()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        编辑资料
+      </button>
+    </div>
+  </div>
+
+  <!-- Balance -->
+  <div class="card">
+    <div class="balance-hero">
+      <div class="amount"><span id="balanceAmount">0</span> <span class="unit">积分</span></div>
+      <div class="sub">≈ <span id="balanceTokens">0</span>K tokens · <span id="balanceMsgs">0</span>条回复</div>
+      <div class="balance-bar">
+        <div class="balance-bar-fill" id="balanceBar" style="width:0%"></div>
+      </div>
+    </div>
+    <div class="balance-stats">
+      <div><div class="stat-num" id="statConvs">0</div><div class="stat-label">对话数</div></div>
+      <div><div class="stat-num" id="statMsgs">0</div><div class="stat-label">消息数</div></div>
+      <div><div class="stat-num" id="statDays">-</div><div class="stat-label">天数</div></div>
+    </div>
+  </div>
+
+  <!-- Profile -->
+  <div class="card">
+    <div class="card-header">
+      <h2>个人资料</h2>
+      <button class="card-edit" onclick="openEditProfile()">编辑</button>
+    </div>
+    <div class="profile-grid" id="profileDisplay">
+      <div class="profile-item">
+        <div class="label">学校</div>
+        <div class="value" id="pSchool"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">专业</div>
+        <div class="value" id="pMajor"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">年级</div>
+        <div class="value" id="pGrade"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">目标</div>
+        <div class="value" id="pGoal"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">技能</div>
+        <div class="value" id="pSkills"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">经历</div>
+        <div class="value" id="pExperience"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">兴趣</div>
+        <div class="value" id="pInterests"><span class="empty">未设置</span></div>
+      </div>
+      <div class="profile-item">
+        <div class="label">成就</div>
+        <div class="value" id="pAchievements"><span class="empty">未设置</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Conversations -->
+  <div class="card">
+    <div class="card-header">
+      <h2>最近对话</h2>
+      <span style="font-size:0.78rem;color:var(--text3);" id="convTotal"></span>
+    </div>
+    <div id="convList"><div class="empty-state">暂无对话记录</div></div>
+  </div>
+
+  <!-- Conversation Summary / Export Section -->
+  <div class="card" id="summaryCard" style="display:none;">
+    <div class="card-header">
+      <h2>最近对话摘要</h2>
+    </div>
+    <div id="lastSummary" style="font-size:0.9rem;color:var(--text2);padding:8px 0;"></div>
+  </div>
+
+</div>
+
+<!-- Edit Profile Modal -->
+<div class="modal-overlay" id="profileModal">
+  <div class="modal">
+    <h2>编辑资料</h2>
+    <label for="editSchool">学校</label>
+    <input type="text" id="editSchool" placeholder="例如：清华大学">
+    <label for="editMajor">专业</label>
+    <input type="text" id="editMajor" placeholder="例如：计算机科学">
+    <label for="editGrade">年级</label>
+    <select id="editGrade">
+      <option value="">选择年级</option>
+      <option value="Freshman">大一</option>
+      <option value="Sophomore">大二</option>
+      <option value="Junior">大三</option>
+      <option value="Senior">大四</option>
+      <option value="Master Y1">研一</option>
+      <option value="Master Y2">研二</option>
+      <option value="Master Y3">研三</option>
+    </select>
+    <label for="editGoal">目标</label>
+    <textarea id="editGoal" placeholder="例如：申请斯坦福博士" oninput="autoResize(this)"></textarea>
+    <label for="editSkills">技能</label>
+    <textarea id="editSkills" placeholder="例如：Python、Java、演讲" oninput="autoResize(this)"></textarea>
+    <label for="editExperience">经历</label>
+    <textarea id="editExperience" placeholder="例如：腾讯实习、学生会" oninput="autoResize(this)"></textarea>
+    <label for="editInterests">兴趣</label>
+    <textarea id="editInterests" placeholder="例如：人工智能、机器人、金融" oninput="autoResize(this)"></textarea>
+    <label for="editAchievements">成就</label>
+    <textarea id="editAchievements" placeholder="例如：全国数学竞赛一等奖" oninput="autoResize(this)"></textarea>
+    <div class="modal-actions">
+      <button onclick="closeModal('profileModal')">取消</button>
+      <button class="btn-primary" onclick="saveProfile()">保存</button>
+    </div>
+    <div class="msg" id="profileMsg"></div>
+  </div>
+</div>
+
+<!-- Recharge Modal -->
+<div class="modal-overlay" id="rechargeModal">
+  <div class="modal" style="max-width:480px;">
+    <h2>充值积分</h2>
+    <p style="font-size:0.82rem;color:var(--text3);margin-bottom:12px;">通过微信/支付宝转账给管理员，然后在此兑换你的充值码。</p>
+    <input type="text" id="rechargeInput" placeholder="输入充值码">
+    <div class="msg" id="rechargeMsg"></div>
+    <div class="modal-actions">
+      <button onclick="closeModal('rechargeModal')">取消</button>
+      <button class="btn-primary" onclick="doRecharge()">兑换</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script src="static/js/shared/session.js"></script>
+    <script src="static/js/shared/api.js"></script>
+    <script src="static/js/pages/dashboard.js"></script>
+</body>
+</html>
